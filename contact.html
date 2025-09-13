@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ติดต่อเรา - โทรศัพท์สีชาเย็น</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7e7ce;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #d8a373;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+        .contact-container {
+            max-width: 500px;
+            margin: 2rem auto;
+            background: #fff7e6;
+            border-radius: 16px;
+            box-shadow: 0 4px 16px rgba(216,163,115,0.1);
+            padding: 2rem;
+        }
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #d8a373;
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 0.7rem;
+            margin-bottom: 1.2rem;
+            border: 1px solid #d8a373;
+            border-radius: 8px;
+            font-size: 1rem;
+            background: #fff;
+        }
+        button {
+            background: #d8a373;
+            color: #fff;
+            border: none;
+            padding: 0.8rem 2rem;
+            border-radius: 24px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        button:hover {
+            background: #b97a3a;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .back-link a {
+            color: #d8a373;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #d8a373;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ติดต่อเรา</h1>
+    </header>
+    <section class="contact-container">
+        <form>
+            <label for="name">ชื่อ</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">อีเมล</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">ข้อความ</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">ส่งข้อความ</button>
+        </form>
+        <div class="back-link">
+            <a href="index.html">กลับสู่หน้าแรก</a>
+        </div>
+    </section>
+    <footer>
+        &copy; 2025 โทรศัพท์สีชาเย็น
+    </footer>
+</body>
+</html>
